@@ -74,7 +74,11 @@ class Manager: ObservableObject {
 
 struct EndPoint {
     static let url: String = "https://api.themoviedb.org/3"
+<<<<<<< HEAD
     static let apiKey: String = "???????"
+=======
+    static let apiKey: String = "??????????????????"
+>>>>>>> e7fe5c9f274fbcbfd8800f63d8b5cbbd406a8813
     
     enum HttpMethods: String {
         case get = "GET"
@@ -114,7 +118,7 @@ struct RequestHandler {
     let path: String?
     
     init(endPoint: EndPoint,
-         params: [String:String] = ["api_key": "b264e8306ce2c7637df4b6d6263504c4"],
+         params: [String:String] = ["api_key": "?????????????"],
          path: String = "") {
         self.endpoint = endPoint
         self.params = params
