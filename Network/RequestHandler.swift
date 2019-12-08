@@ -74,7 +74,7 @@ class Manager: ObservableObject {
 
 struct EndPoint {
     static let url: String = "https://api.themoviedb.org/3"
-    static let apiKey: String = "b264e8306ce2c7637df4b6d6263504c4"
+    static let apiKey: String = "???????"
     
     enum HttpMethods: String {
         case get = "GET"
